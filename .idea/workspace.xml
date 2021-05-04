@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83699c03-6601-4eb1-bb48-ffb801cac585" name="Default Changelist" comment="added outputToTxtFile method">
+      <change beforePath="$PROJECT_DIR$/StudyGroups/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyGroups/contacts.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iAOA038YV1e6MNvXCARydG8WRh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/phase2/presentation" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/phase2/presentation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="group_0143" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="presentation" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;$USER_HOME$/Downloads/javafx-sdk-11.0.2/lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="presentation.src.Main" />
+      <module name="group_0143" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;$PROJECT_DIR$/phase2/presentation/lib&quot; --add-modules=javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="presentation.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83699c03-6601-4eb1-bb48-ffb801cac585" name="Default Changelist" comment="" />
+      <created>1601346783229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601346783229</updated>
+    </task>
+    <task id="LOCAL-00049" summary="added viewEvents method iterating over list of events">
+      <created>1605309076029</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1605309076029</updated>
+    </task>
+    <task id="LOCAL-00050" summary="added finally block">
+      <created>1605310057277</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1605310057278</updated>
+    </task>
+    <task id="LOCAL-00051" summary="added display list of messages method">
+      <created>1605384995483</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1605384995483</updated>
+    </task>
+    <task id="LOCAL-00052" summary="added javadoc">
+      <created>1605386019704</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1605386019705</updated>
+    </task>
+    <task id="LOCAL-00053" summary="added javadoc">
+      <created>1605386656184</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1605386656184</updated>
+    </task>
+    <task id="LOCAL-00054" summary="added javadoc">
+      <created>1605386797009</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1605386797009</updated>
+    </task>
+    <task id="LOCAL-00055" summary="added javadoc">
+      <created>1605386807186</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1605386807186</updated>
+    </task>
+    <task id="LOCAL-00056" summary="added javadoc">
+      <created>1605386904959</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1605386904960</updated>
+    </task>
+    <task id="LOCAL-00057" summary="added javadoc and comments">
+      <created>1605387098431</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1605387098432</updated>
+    </task>
+    <task id="LOCAL-00058" summary="added javadoc and comments">
+      <created>1605387422645</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1605387422646</updated>
+    </task>
+    <task id="LOCAL-00059" summary="grammar">
+      <created>1605388462681</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1605388462681</updated>
+    </task>
+    <task id="LOCAL-00060" summary="grammar">
+      <created>1605389089494</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1605389089494</updated>
+    </task>
+    <task id="LOCAL-00061" summary="raised IO exception, without printing a statement">
+      <created>1605392242860</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1605392242861</updated>
+    </task>
+    <task id="LOCAL-00062" summary="raised IO exception, without printing a statement">
+      <created>1605392447457</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1605392447457</updated>
+    </task>
+    <task id="LOCAL-00063" summary="fixed indexOutOfBoundsError in ArrayList getAllEventsIds">
+      <created>1605395325810</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1605395325811</updated>
+    </task>
+    <task id="LOCAL-00064" summary="added more user friendly interaction and functionality in display menu">
+      <created>1605472479076</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1605472479077</updated>
+    </task>
+    <task id="LOCAL-00065" summary="added more user friendly interaction and functionality in display menu, and specifies type of the user">
+      <created>1605474971471</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1605474971471</updated>
+    </task>
+    <task id="LOCAL-00066" summary="added more user friendly interaction and functionality in display menu, and specifies type of the user, spacing">
+      <created>1605475647737</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1605475647737</updated>
+    </task>
+    <task id="LOCAL-00067" summary="added more user friendly interaction and functionality in display menu, and specifies type of the user, spacing">
+      <created>1605475815293</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1605475815293</updated>
+    </task>
+    <task id="LOCAL-00068" summary="added full javadoc for all presenters, removed main methods in gateways, removed file not found printed statement">
+      <created>1605479117534</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1605479117534</updated>
+    </task>
+    <task id="LOCAL-00069" summary="added full javadoc">
+      <created>1605480918044</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1605480918044</updated>
+    </task>
+    <task id="LOCAL-00070" summary="removed unused imports and full javadoc for GatewayInterface">
+      <created>1605481263568</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1605481263568</updated>
+    </task>
+    <task id="LOCAL-00071" summary="added option for 0">
+      <created>1605561338096</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1605561338098</updated>
+    </task>
+    <task id="LOCAL-00072" summary="added extensive comments to all gateway classes">
+      <created>1605566646613</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1605566646613</updated>
+    </task>
+    <task id="LOCAL-00073" summary="added extensive comments to all gateway classes">
+      <created>1605567410556</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1605567410556</updated>
+    </task>
+    <task id="LOCAL-00074" summary="added minor error fixes, still needs work">
+      <created>1607203833097</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1607203833097</updated>
+    </task>
+    <task id="LOCAL-00075" summary="added minor error fixes">
+      <created>1607208083057</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1607208083057</updated>
+    </task>
+    <task id="LOCAL-00076" summary="createdLoginLog file">
+      <created>1607208353516</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1607208353516</updated>
+    </task>
+    <task id="LOCAL-00077" summary="createdLoginLog file">
+      <created>1607211351148</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1607211351148</updated>
+    </task>
+    <task id="LOCAL-00078" summary="added JSON objects">
+      <created>1607234957729</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1607234957729</updated>
+    </task>
+    <task id="LOCAL-00079" summary="added import JSON, still need to work on JSON method">
+      <created>1607234991142</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1607234991142</updated>
+    </task>
+    <task id="LOCAL-00080" summary="minor error in time type">
+      <created>1607287495466</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1607287495466</updated>
+    </task>
+    <task id="LOCAL-00081" summary="fixed storage of login logs, size of 3 for the array list values">
+      <created>1607291524085</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1607291524085</updated>
+    </task>
+    <task id="LOCAL-00082" summary="fixed storage of login logs, size of 3 for the array list values">
+      <created>1607292937430</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1607292937431</updated>
+    </task>
+    <task id="LOCAL-00083" summary="fixed storage of login logs, size of 3 for the array list values">
+      <created>1607311746536</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1607311746536</updated>
+    </task>
+    <task id="LOCAL-00084" summary="completed getAccountInfo and getUserAccount">
+      <created>1607353361377</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1607353361377</updated>
+    </task>
+    <task id="LOCAL-00085" summary="completed getAccountInfo and getUserAccount">
+      <created>1607353926271</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1607353926271</updated>
+    </task>
+    <task id="LOCAL-00086" summary="completed getAccountInfo and getUserAccount">
+      <created>1607353929070</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1607353929070</updated>
+    </task>
+    <task id="LOCAL-00087" summary="changes to the storage of attributes in the constructors">
+      <created>1607632095825</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1607632095826</updated>
+    </task>
+    <task id="LOCAL-00088" summary="changes to the storage of attributes in the constructors">
+      <created>1607632506290</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1607632506290</updated>
+    </task>
+    <task id="LOCAL-00089" summary="changes type of variable of condition">
+      <created>1607633232695</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1607633232695</updated>
+    </task>
+    <task id="LOCAL-00090" summary="changes type of variable of condition">
+      <created>1607634437055</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1607634437055</updated>
+    </task>
+    <task id="LOCAL-00091" summary="changed import statements">
+      <created>1607642074828</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1607642074828</updated>
+    </task>
+    <task id="LOCAL-00092" summary="added requestSchedule by Day, time and Speaker&#10;implemented output to text file in UserGateway">
+      <created>1607687490289</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1607687490289</updated>
+    </task>
+    <task id="LOCAL-00093" summary="javadoc">
+      <created>1607688292715</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1607688292715</updated>
+    </task>
+    <task id="LOCAL-00094" summary="requestScheduleByRoom skeleton">
+      <created>1607723868047</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1607723868047</updated>
+    </task>
+    <task id="LOCAL-00095" summary="requestScheduleByRoom completed 1.0">
+      <created>1607726684249</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1607726684249</updated>
+    </task>
+    <task id="LOCAL-00096" summary="updated date format to consider events longer than a day">
+      <created>1607726722215</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1607726722215</updated>
+    </task>
+    <task id="LOCAL-00097" summary="added outputToTxtFile method">
+      <created>1607729524091</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1607729524092</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added more user friendly interaction and functionality in display menu, and specifies type of the user" />
+    <MESSAGE value="added more user friendly interaction and functionality in display menu, and specifies type of the user, spacing" />
+    <MESSAGE value="added full javadoc for all presenters, removed main methods in gateways" />
+    <MESSAGE value="added full javadoc for all presenters, removed main methods in gateways, removed file not found printed statement" />
+    <MESSAGE value="added full javadoc" />
+    <MESSAGE value="removed unused imports and full javadoc for GatewayInterface" />
+    <MESSAGE value="added option for 0" />
+    <MESSAGE value="added extensive comments to all gateway classes" />
+    <MESSAGE value="added minor error fixes, still needs work" />
+    <MESSAGE value="added minor error fixes" />
+    <MESSAGE value="createdLoginLog file" />
+    <MESSAGE value="added JSON objects" />
+    <MESSAGE value="added import JSON, still need to work on JSON method" />
+    <MESSAGE value="minor error in time type" />
+    <MESSAGE value="fixed storage of login logs, size of 3 for the array list values" />
+    <MESSAGE value="completed getAccountInfo and getUserAccount" />
+    <MESSAGE value="changes to the storage of attributes in the constructors" />
+    <MESSAGE value="changes type of variable of condition" />
+    <MESSAGE value="changed import statements" />
+    <MESSAGE value="added requestSchedule by Day, time and Speaker&#10;implemented output to text file in UserGateway" />
+    <MESSAGE value="javadoc" />
+    <MESSAGE value="requestScheduleByRoom skeleton" />
+    <MESSAGE value="requestScheduleByRoom completed 1.0" />
+    <MESSAGE value="updated date format to consider events longer than a day" />
+    <MESSAGE value="added outputToTxtFile method" />
+    <option name="LAST_COMMIT_MESSAGE" value="added outputToTxtFile method" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="51" y="23" width="1071" height="830" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606939757303">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="51" y="23" width="1071" height="830" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.830@0.23.1440.830" timestamp="1606939757303" />
+    <state x="312" y="82" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831@0.23.1440.831" timestamp="1606529940649" />
+    <state x="216" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.832@0.23.1440.832" timestamp="1606531197630" />
+    <state x="466" y="229" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605393753254">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="466" y="229" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.830@0.23.1440.830" timestamp="1604344411027" />
+    <state x="466" y="229" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.831@0.23.1440.831" timestamp="1605393753254" />
+    <state x="571" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1605302728436">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="571" y="141" key="#com.intellij.ide.util.MemberChooser/0.23.1440.831@0.23.1440.831" timestamp="1605302728436" />
+    <state x="585" y="253" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606937593348">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="585" y="253" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.830@0.23.1440.830" timestamp="1606937593348" />
+    <state x="585" y="253" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.831@0.23.1440.831" timestamp="1606529936001" />
+    <state x="110" y="351" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606343124894">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="110" y="351" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.830@0.23.1440.830" timestamp="1606343124894" />
+    <state x="272" y="77" width="1152" height="664" key="DiffContextDialog" timestamp="1607723835636">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="272" y="77" key="DiffContextDialog/0.23.1440.830@0.23.1440.830" timestamp="1607723835636" />
+    <state x="272" y="77" width="1152" height="664" key="DiffContextDialog/0.23.1440.831@0.23.1440.831" timestamp="1605304402209" />
+    <state width="1398" height="529" key="GridCell.Tab.0.bottom" timestamp="1607900768012">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1290" height="602" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1607738457268" />
+    <state width="1398" height="529" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1607900768012" />
+    <state width="1054" height="602" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1607744816495" />
+    <state width="1398" height="529" key="GridCell.Tab.0.center" timestamp="1607900768009">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1290" height="602" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1607738457267" />
+    <state width="1398" height="529" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1607900768009" />
+    <state width="1054" height="602" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1607744816485" />
+    <state width="1398" height="529" key="GridCell.Tab.0.left" timestamp="1607900768006">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1290" height="602" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1607738457266" />
+    <state width="1398" height="529" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1607900768006" />
+    <state width="1054" height="602" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1607744816485" />
+    <state width="1398" height="529" key="GridCell.Tab.0.right" timestamp="1607900768011">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1290" height="602" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1607738457268" />
+    <state width="1398" height="529" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1607900768011" />
+    <state width="1054" height="602" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1607744816486" />
+    <state x="100" y="140" key="MergeDialog" timestamp="1607642133556">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="100" y="140" key="MergeDialog/0.23.1440.830@0.23.1440.830" timestamp="1607642133556" />
+    <state x="100" y="140" key="MergeDialog/0.23.1440.831@0.23.1440.831" timestamp="1605567083204" />
+    <state x="316" y="251" key="MultipleFileMergeDialog" timestamp="1607642135199">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="316" y="251" key="MultipleFileMergeDialog/0.23.1440.830@0.23.1440.830" timestamp="1607642135199" />
+    <state x="316" y="251" key="MultipleFileMergeDialog/0.23.1440.831@0.23.1440.831" timestamp="1605567083240" />
+    <state x="211" y="144" key="NewModule_or_Project.wizard" timestamp="1606343676452">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="211" y="144" key="NewModule_or_Project.wizard/0.23.1440.830@0.23.1440.830" timestamp="1606343676452" />
+    <state x="548" y="129" key="RollbackChangesDialog" timestamp="1607745308125">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="548" y="129" key="RollbackChangesDialog/0.23.1440.830@0.23.1440.830" timestamp="1607687556117" />
+    <state x="548" y="129" key="RollbackChangesDialog/0.23.1440.831@0.23.1440.831" timestamp="1607311753139" />
+    <state x="548" y="129" key="RollbackChangesDialog/0.23.1440.832@0.23.1440.832" timestamp="1607745308125" />
+    <state x="61" y="23" width="1024" height="832" key="SettingsEditor" timestamp="1607203223926">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="61" y="23" width="1024" height="830" key="SettingsEditor/0.23.1440.830@0.23.1440.830" timestamp="1607203223926" />
+    <state x="75" y="23" width="1024" height="831" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1606531005754" />
+    <state x="75" y="23" width="1024" height="832" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1606531129933" />
+    <state x="563" y="158" key="Vcs.Push.Dialog.v2" timestamp="1607729540154">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="563" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.830@0.23.1440.830" timestamp="1607729540154" />
+    <state x="616" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.831@0.23.1440.831" timestamp="1607353934358" />
+    <state x="616" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.832@0.23.1440.832" timestamp="1607235488337" />
+    <state x="616" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1601347181086" />
+    <state x="681" y="169" key="VcsDiffUtil.ChangesDialog" timestamp="1605304302726">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="681" y="169" key="VcsDiffUtil.ChangesDialog/0.23.1440.831@0.23.1440.831" timestamp="1605304302726" />
+    <state x="535" y="205" key="chooseDestDirectoryDialog" timestamp="1606345528786">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="535" y="205" key="chooseDestDirectoryDialog/0.23.1440.830@0.23.1440.830" timestamp="1606345528786" />
+    <state x="285" y="337" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607202524132">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="285" y="337" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.830@0.23.1440.830" timestamp="1607202524132" />
+    <state x="565" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607664130464">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="565" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.830@0.23.1440.830" timestamp="1607664130464" />
+    <state x="440" y="175" width="598" height="490" key="find.popup" timestamp="1606344886089">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="440" y="175" width="598" height="490" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1606344886089" />
+    <state x="520" y="321" key="git4idea.ui.GitResetDialog" timestamp="1606342465741">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="520" y="321" key="git4idea.ui.GitResetDialog/0.23.1440.830@0.23.1440.830" timestamp="1606342465741" />
+    <state x="142" y="23" key="new project wizard" timestamp="1606939001514">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="142" y="23" key="new project wizard/0.23.1440.830@0.23.1440.830" timestamp="1606939001514" />
+    <state x="0" y="60" key="new project wizard/0.23.1440.831@0.23.1440.831" timestamp="1606530191615" />
+    <state x="108" y="179" width="670" height="676" key="search.everywhere.popup" timestamp="1607744990987">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="108" y="179" width="670" height="676" key="search.everywhere.popup/0.23.1440.831@0.23.1440.831" timestamp="1605566590349" />
+    <state x="108" y="179" width="670" height="676" key="search.everywhere.popup/0.23.1440.832@0.23.1440.832" timestamp="1607744990987" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/group_0143$Main.ic" NAME="Main Coverage Results" MODIFIED="1606344303084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
