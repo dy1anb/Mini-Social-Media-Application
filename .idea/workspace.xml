@@ -23,7 +23,202 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83699c03-6601-4eb1-bb48-ffb801cac585" name="Default Changelist" comment="added outputToTxtFile method">
-      <change beforePath="$PROJECT_DIR$/StudyGroups/.gitkeep" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs_save.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/controllers/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/controllers/AttendeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/controllers/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/controllers/OrganizerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/controllers/SpeakerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/controllers/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/entities/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/entities/Attendee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/entities/Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/entities/LoginLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/entities/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/entities/MessageThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/entities/Organizer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/entities/Room$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/entities/Room.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/entities/SerializableComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/entities/Speaker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/entities/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/entities/UserAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/gateways/EventGateway.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/gateways/GatewayInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/gateways/LoginLogGateway.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/gateways/MessageGateway.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/gateways/RoomGateway.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/gateways/UserAccountGateway.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/gateways/UserGateway.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/presenters/AdminPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/presenters/AttendeePresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/presenters/LoginPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/presenters/MessagePresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/presenters/OrganizerPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/presenters/PresenterUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/presenters/SpeakerPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/presenters/UserPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/usecases/EventManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/usecases/LoginLogManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/usecases/MessageManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/usecases/RoomManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/usecases/UserAccountManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/core/usecases/UserManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/adapter/LoginLogAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/adapter/MessageAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/adapter/MessageThreadAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/adapter/ScheduleAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/adapter/UserAccountAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/adapter/UserAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/ICreateAccountPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/ICreateAccountView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/IDeleteMessagesPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/IDeleteMessagesView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/IRemoveEventsPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/IRemoveEventsView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/ISetVipPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/ISetVipView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/IUnlockAccountsPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/IUnlockAccountsView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/impl/CreateAccountPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/impl/CreateAccountView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/impl/DeleteMessagesPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/impl/DeleteMessagesView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/impl/RemoveEventsPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/impl/RemoveEventsView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/impl/SetVipPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/impl/SetVipView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/impl/UnlockAccountsPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/admin/impl/UnlockAccountsView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/IFriendsPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/IFriendsView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/IMessagingPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/IMessagingView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/IViewEventsPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/IViewEventsView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/impl/FriendsPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/impl/FriendsView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/impl/MessagingPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/impl/MessagingView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/impl/ViewAllEventsPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/impl/ViewAllEventsView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/impl/ViewOwnEventsPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/attendee/impl/ViewOwnEventsView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/common/ILoggedInPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/common/ILoggedInView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/common/IPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/common/IView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/common/UserAccountHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/css/attendee.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/css/cancel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/css/createNew.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/css/friends.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/css/messaging.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/css/organizerMessaging.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/css/project.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/css/scheduleSpeaker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/css/speaker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/css/toolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/css/unlock.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/createAccount.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/createEvent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/createRoom.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/deleteMessages.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/forgot.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/friends.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/messageAttendees.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/messageSpeakers.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/messaging.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/register.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/removeEvents.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/rescheduleCancelEvent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/scheduleSpeaker.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/setVip.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/setup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/speakerEvents.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/toolbar.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/unlockAccounts.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/viewEvents.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/fxml/viewSchedule.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/home/IHomePresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/home/IHomeView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/home/impl/HomePresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/home/impl/HomeView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/IForgotPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/IForgotView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/ILoginPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/ILoginView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/IRegisterPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/IRegisterView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/impl/ForgotPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/impl/ForgotView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/impl/LoginPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/impl/LoginView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/impl/RegisterPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/impl/RegisterView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/impl/SetupPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/login/impl/SetupView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/model/LoginLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/model/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/model/MessageThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/model/ScheduleEntry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/model/Selectable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/model/UserAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/ICreateEventPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/ICreateEventView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/ICreateRoomPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/ICreateRoomView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/IMessageUsersPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/IMessageUsersView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/IRescheduleCancelEventPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/IRescheduleCancelEventView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/IScheduleSpeakerPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/IScheduleSpeakerView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/impl/CreateEventPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/impl/CreateEventView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/impl/CreateRoomPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/impl/CreateRoomView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/impl/MessageAttendeesPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/impl/MessageAttendeesView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/impl/MessageSpeakersPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/impl/MessageSpeakersView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/impl/RescheduleCancelEventPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/impl/RescheduleCancelEventView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/impl/ScheduleSpeakerPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/organizer/impl/ScheduleSpeakerView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/speaker/ISpeakerEventsPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/speaker/ISpeakerEventsView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/speaker/impl/SpeakerEventsPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/speaker/impl/SpeakerEventsView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/toolbar/IToolbarPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/toolbar/IToolbarView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/toolbar/impl/ToolbarPresenter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/toolbar/impl/ToolbarView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/util/ComponentFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/util/DateTimePicker$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/util/DateTimePicker$InternalConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/util/DateTimePicker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/util/DateTimeUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/util/DateTimeUtil$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/util/DateTimeUtil$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/util/DateTimeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/util/NumberTextField.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/presentation/util/TextResultUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uam_gt_save.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ugt_save.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyGroups/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/presentation/css/adminVip.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyGroups/contacts.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -504,126 +699,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="added outputToTxtFile method" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="51" y="23" width="1071" height="830" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606939757303">
+    <state x="427" y="154" width="598" height="490" key="find.popup" timestamp="1620147285557">
       <screen x="0" y="23" width="1440" height="830" />
     </state>
-    <state x="51" y="23" width="1071" height="830" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.830@0.23.1440.830" timestamp="1606939757303" />
-    <state x="312" y="82" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831@0.23.1440.831" timestamp="1606529940649" />
-    <state x="216" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.832@0.23.1440.832" timestamp="1606531197630" />
-    <state x="466" y="229" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605393753254">
-      <screen x="0" y="23" width="1440" height="831" />
-    </state>
-    <state x="466" y="229" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.830@0.23.1440.830" timestamp="1604344411027" />
-    <state x="466" y="229" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.831@0.23.1440.831" timestamp="1605393753254" />
-    <state x="571" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1605302728436">
-      <screen x="0" y="23" width="1440" height="831" />
-    </state>
-    <state x="571" y="141" key="#com.intellij.ide.util.MemberChooser/0.23.1440.831@0.23.1440.831" timestamp="1605302728436" />
-    <state x="585" y="253" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606937593348">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="585" y="253" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.830@0.23.1440.830" timestamp="1606937593348" />
-    <state x="585" y="253" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.831@0.23.1440.831" timestamp="1606529936001" />
-    <state x="110" y="351" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606343124894">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="110" y="351" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.830@0.23.1440.830" timestamp="1606343124894" />
-    <state x="272" y="77" width="1152" height="664" key="DiffContextDialog" timestamp="1607723835636">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="272" y="77" key="DiffContextDialog/0.23.1440.830@0.23.1440.830" timestamp="1607723835636" />
-    <state x="272" y="77" width="1152" height="664" key="DiffContextDialog/0.23.1440.831@0.23.1440.831" timestamp="1605304402209" />
-    <state width="1398" height="529" key="GridCell.Tab.0.bottom" timestamp="1607900768012">
-      <screen x="0" y="23" width="1440" height="831" />
-    </state>
-    <state width="1290" height="602" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1607738457268" />
-    <state width="1398" height="529" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1607900768012" />
-    <state width="1054" height="602" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1607744816495" />
-    <state width="1398" height="529" key="GridCell.Tab.0.center" timestamp="1607900768009">
-      <screen x="0" y="23" width="1440" height="831" />
-    </state>
-    <state width="1290" height="602" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1607738457267" />
-    <state width="1398" height="529" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1607900768009" />
-    <state width="1054" height="602" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1607744816485" />
-    <state width="1398" height="529" key="GridCell.Tab.0.left" timestamp="1607900768006">
-      <screen x="0" y="23" width="1440" height="831" />
-    </state>
-    <state width="1290" height="602" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1607738457266" />
-    <state width="1398" height="529" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1607900768006" />
-    <state width="1054" height="602" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1607744816485" />
-    <state width="1398" height="529" key="GridCell.Tab.0.right" timestamp="1607900768011">
-      <screen x="0" y="23" width="1440" height="831" />
-    </state>
-    <state width="1290" height="602" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1607738457268" />
-    <state width="1398" height="529" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1607900768011" />
-    <state width="1054" height="602" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1607744816486" />
-    <state x="100" y="140" key="MergeDialog" timestamp="1607642133556">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="100" y="140" key="MergeDialog/0.23.1440.830@0.23.1440.830" timestamp="1607642133556" />
-    <state x="100" y="140" key="MergeDialog/0.23.1440.831@0.23.1440.831" timestamp="1605567083204" />
-    <state x="316" y="251" key="MultipleFileMergeDialog" timestamp="1607642135199">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="316" y="251" key="MultipleFileMergeDialog/0.23.1440.830@0.23.1440.830" timestamp="1607642135199" />
-    <state x="316" y="251" key="MultipleFileMergeDialog/0.23.1440.831@0.23.1440.831" timestamp="1605567083240" />
-    <state x="211" y="144" key="NewModule_or_Project.wizard" timestamp="1606343676452">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="211" y="144" key="NewModule_or_Project.wizard/0.23.1440.830@0.23.1440.830" timestamp="1606343676452" />
-    <state x="548" y="129" key="RollbackChangesDialog" timestamp="1607745308125">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="548" y="129" key="RollbackChangesDialog/0.23.1440.830@0.23.1440.830" timestamp="1607687556117" />
-    <state x="548" y="129" key="RollbackChangesDialog/0.23.1440.831@0.23.1440.831" timestamp="1607311753139" />
-    <state x="548" y="129" key="RollbackChangesDialog/0.23.1440.832@0.23.1440.832" timestamp="1607745308125" />
-    <state x="61" y="23" width="1024" height="832" key="SettingsEditor" timestamp="1607203223926">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="61" y="23" width="1024" height="830" key="SettingsEditor/0.23.1440.830@0.23.1440.830" timestamp="1607203223926" />
-    <state x="75" y="23" width="1024" height="831" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1606531005754" />
-    <state x="75" y="23" width="1024" height="832" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1606531129933" />
-    <state x="563" y="158" key="Vcs.Push.Dialog.v2" timestamp="1607729540154">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="563" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.830@0.23.1440.830" timestamp="1607729540154" />
-    <state x="616" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.831@0.23.1440.831" timestamp="1607353934358" />
-    <state x="616" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.832@0.23.1440.832" timestamp="1607235488337" />
-    <state x="616" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.834@0.23.1440.834" timestamp="1601347181086" />
-    <state x="681" y="169" key="VcsDiffUtil.ChangesDialog" timestamp="1605304302726">
-      <screen x="0" y="23" width="1440" height="831" />
-    </state>
-    <state x="681" y="169" key="VcsDiffUtil.ChangesDialog/0.23.1440.831@0.23.1440.831" timestamp="1605304302726" />
-    <state x="535" y="205" key="chooseDestDirectoryDialog" timestamp="1606345528786">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="535" y="205" key="chooseDestDirectoryDialog/0.23.1440.830@0.23.1440.830" timestamp="1606345528786" />
-    <state x="285" y="337" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607202524132">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="285" y="337" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.830@0.23.1440.830" timestamp="1607202524132" />
-    <state x="565" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607664130464">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="565" y="341" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.830@0.23.1440.830" timestamp="1607664130464" />
-    <state x="440" y="175" width="598" height="490" key="find.popup" timestamp="1606344886089">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="440" y="175" width="598" height="490" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1606344886089" />
-    <state x="520" y="321" key="git4idea.ui.GitResetDialog" timestamp="1606342465741">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="520" y="321" key="git4idea.ui.GitResetDialog/0.23.1440.830@0.23.1440.830" timestamp="1606342465741" />
-    <state x="142" y="23" key="new project wizard" timestamp="1606939001514">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="142" y="23" key="new project wizard/0.23.1440.830@0.23.1440.830" timestamp="1606939001514" />
-    <state x="0" y="60" key="new project wizard/0.23.1440.831@0.23.1440.831" timestamp="1606530191615" />
-    <state x="108" y="179" width="670" height="676" key="search.everywhere.popup" timestamp="1607744990987">
-      <screen x="0" y="23" width="1440" height="832" />
-    </state>
-    <state x="108" y="179" width="670" height="676" key="search.everywhere.popup/0.23.1440.831@0.23.1440.831" timestamp="1605566590349" />
-    <state x="108" y="179" width="670" height="676" key="search.everywhere.popup/0.23.1440.832@0.23.1440.832" timestamp="1607744990987" />
+    <state x="427" y="154" width="598" height="490" key="find.popup/0.23.1440.830@0.23.1440.830" timestamp="1620147285557" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/group_0143$Main.ic" NAME="Main Coverage Results" MODIFIED="1606344303084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
